@@ -19,7 +19,7 @@ export default function AboutPage() {
               <p className="mb-3">When I'm not try to solve a problem, you'll find me:</p>
               <ul className="space-y-1 pl-4">
                 <li><span className="text-skin-primary">Bed-rotting:</span> Reading manhwa or about technology in bed.</li>
-                <li><span className="text-skin-primary">Social:</span> Hanging out with my friends </li>
+                <li><span className="text-skin-primary">Social:</span> Hanging out with my friends. </li>
                 <li><span className="text-skin-primary">Staying active:</span> Hiking and taking walks.</li>
                 <li><span className="text-skin-primary">Discovering Life:</span> Going on side-quests to make most of life.</li>
               </ul>
