@@ -1,3 +1,5 @@
+import { Github, Linkedin, Mail } from 'lucide-react'
+
 export default function AboutPage() {
   return (
     <main className="max-w-2xl mx-auto px-4 py-8">
@@ -8,62 +10,64 @@ export default function AboutPage() {
           <h2 className="text-skin-primary text-lg font-medium mb-6">Who I Am</h2>
           <div className="text-skin-base text-base leading-relaxed space-y-4">
             <p>
-              I'm a software engineer with a background in computer engineering and a passion for solving complex problems. 
-              With demonstrated expertise in fintech and payment solutions, I build scalable systems that serve both 
-              businesses and customers.
+              I am a software engineer with a strong passion for problem-solving, driven by an analytical and
+              solution-oriented mindset. I love designing systems that are scalable, efficient, and maintainable.
+              Committed to continuous learning and growth, I strive to deliver
+              meaningful impact and drive success in everything I do​. 
             </p>
             <div>
-              <p className="mb-3">When I'm not architecting distributed systems, you'll find me:</p>
+              <p className="mb-3">When I'm not try to solve a problem, you'll find me:</p>
               <ul className="space-y-1 pl-4">
-                <li><span className="text-skin-primary">Staying Active:</span> At the gym, pushing my limits and maintaining balance.</li>
-                <li><span className="text-skin-primary">Court Side:</span> Watching basketball and appreciating the strategy behind the game.</li>
-                <li><span className="text-skin-primary">Capturing Moments:</span> Photography while exploring Ghana's rich landscapes and venturing beyond borders.</li>
-                <li><span className="text-skin-primary">Discovering Life:</span> On a personal journey to uncover what makes life fascinating through travel and new experiences.</li>
+                <li><span className="text-skin-primary">Bed-rotting:</span> Reading manhwa or about technology in bed.</li>
+                <li><span className="text-skin-primary">Social:</span> Hanging out with my friends </li>
+                <li><span className="text-skin-primary">Staying active:</span> Hiking and taking walks.</li>
+                <li><span className="text-skin-primary">Discovering Life:</span> Going on side-quests to make most of life.</li>
               </ul>
             </div>
             <p>
-              I'm a learner. I love to challenge myself to learn new things and solve complex problems. I enjoy using 
-              open source projects. This is my way of motivating myself that there's more knowledge to be acquired.
+              I'm a learner. I love learning and I think learning is fun.
             </p>
           </div>
         </section>
         
         <section className="border-t border-skin-line pt-6">
-          <h2 className="text-skin-primary text-lg font-medium mb-6">Get in Touch</h2>
+          <h2 className="text-skin-primary text-lg font-medium mb-6">Stalk me</h2>
           <div className="text-skin-base text-base leading-relaxed space-y-4">
             <p>
-              I'm always interested in connecting with fellow developers, discussing new technologies, 
-              or collaborating on interesting projects. Feel free to reach out!
+              I'm always interested in connecting with fellow learners and builders, geeking out over cool tech, 
+              discussing our niche interests or collaborating on interesting projects.
             </p>
-            <div className="space-y-2">
-              <p>
-                <span className="text-skin-primary">Email:</span> 
-                <a href="mailto:kweku.ayepah@gmail.com" className="text-skin-accent hover:text-skin-primary transition-colors ml-1">
-                  kweku.ayepah@gmail.com
-                </a>
-              </p>
-              <p>
-                <span className="text-skin-primary">LinkedIn:</span> 
-                <a 
-                  href="https://www.linkedin.com/in/kweku-ayepah-mensah-251453131/" 
-                  className="text-skin-accent hover:text-skin-primary transition-colors ml-1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  kweku-ayepah-mensah
-                </a>
-              </p>
-              <p>
-                <span className="text-skin-primary">GitHub:</span> 
-                <a 
-                  href="https://github.com/kwekuayepah" 
-                  className="text-skin-accent hover:text-skin-primary transition-colors ml-1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  kwekuayepah
-                </a>
-              </p>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm">
+              <a
+                href="https://github.com/georgeey123"
+                className="inline-flex items-center gap-2 text-skin-base hover:text-skin-primary transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <Github className="h-4 w-4" />
+                <span>github</span>
+              </a>
+              <span className="text-skin-base/40">/</span>
+              <a
+                href="https://www.linkedin.com/in/georgekofioheneadjei"
+                className="inline-flex items-center gap-2 text-skin-base hover:text-skin-primary transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-4 w-4" />
+                <span>linkedin</span>
+              </a>                            
+              <span className="text-skin-base/40">/</span>
+              <a
+                href="mailto:gkohene-adjei@gmail.com"
+                className="inline-flex items-center gap-2 text-skin-base hover:text-skin-primary transition-colors"
+                aria-label="Email"
+              >
+                <Mail className="h-4 w-4" />
+                <span>email</span>
+              </a>
             </div>
           </div>
         </section>

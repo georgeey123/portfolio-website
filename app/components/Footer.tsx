@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="mt-16 border-t border-skin-line">
       <div className="max-w-2xl mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Personal Links */}
           <div>
             <h3 className="text-skin-primary text-base font-medium mb-4">Personal</h3>
@@ -36,36 +36,6 @@ export default function Footer() {
             </ul>
           </div>
           
-          {/* Site Links */}
-          <div>
-            <h3 className="text-skin-primary text-base font-medium mb-4">Site</h3>
-            <ul className="space-y-2">
-              <li>
-                <a 
-                  href="/posts?category=technical" 
-                  className="text-skin-base hover:text-skin-primary transition-colors text-base"
-                >
-                  Technical
-                </a>
-              </li>
-              <li>
-                <a 
-                  href="/posts?category=personal" 
-                  className="text-skin-base hover:text-skin-primary transition-colors text-base"
-                >
-                  Personal
-                </a>
-              </li>
-              <li>
-                <a 
-                  href="/tags" 
-                  className="text-skin-base hover:text-skin-primary transition-colors text-base"
-                >
-                  Tags
-                </a>
-              </li>
-            </ul>
-          </div>
           
           {/* Connect */}
           <div>
@@ -73,7 +43,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a 
-                  href="mailto:kweku.ayepah@gmail.com" 
+                  href="mailto:gkohene-adjei@gmail.com" 
                   className="flex items-center space-x-2 text-skin-base hover:text-skin-primary transition-colors text-base group"
                 >
                   <Mail className="w-5 h-5" />
@@ -82,7 +52,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://github.com/kwekuayepah" 
+                  href="https://github.com/georgeey123" 
                   className="flex items-center space-x-2 text-skin-base hover:text-skin-primary transition-colors text-base group"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -93,7 +63,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://www.linkedin.com/in/kweku-ayepah-mensah-251453131/" 
+                  href="https://www.linkedin.com/in/georgekofioheneadjei" 
                   className="flex items-center space-x-2 text-skin-base hover:text-skin-primary transition-colors text-base group"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -108,12 +78,9 @@ export default function Footer() {
         
         <div className="mt-8 pt-8 border-t border-skin-line flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-2 sm:space-y-0">
           <p className="text-skin-base text-xs font-mono">
-            © 2025 Kweku Ayepah
+            © 2026 George Kofi Ohene-Adjei.
           </p>
           <div className="flex items-center space-x-4 text-xs text-skin-base">
-            <span>Made with Next.js</span>
-            <span>•</span>
-            <span>Hosted on Vercel</span>
           </div>
         </div>
       </div>

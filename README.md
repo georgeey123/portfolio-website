@@ -1,4 +1,4 @@
-# Kweku Ayepah - Portfolio Website
+# Portfolio Website
 
 A modern, minimalist portfolio website for a Senior Backend Engineer built with Next.js 14+, TypeScript, and Tailwind CSS.
 
@@ -32,7 +32,7 @@ A modern, minimalist portfolio website for a Senior Backend Engineer built with 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd KwekuPortfolio
+cd <direcrtory>
 ```
 
 2. Install dependencies:
@@ -54,7 +54,7 @@ yarn dev
 ## Project Structure
 
 ```
-KwekuPortfolio/
+<directrory>/
 ├── app/
 │   ├── globals.css          # Global styles and Tailwind imports
 │   ├── layout.tsx           # Root layout component
@@ -132,7 +132,3 @@ npm start
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-For questions or support, please reach out to [kweku.ayepah@example.com](mailto:kweku.ayepah@example.com)

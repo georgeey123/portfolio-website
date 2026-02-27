@@ -15,7 +15,7 @@ export default function Header() {
             href="/" 
             className="text-skin-primary hover:text-skin-accent transition-colors text-base font-medium"
           >
-            Kweku Ayepah
+            George Kofi Ohene-Adjei
           </Link>
           
           <div className="flex items-center space-x-4 sm:space-x-8 md:space-x-12">

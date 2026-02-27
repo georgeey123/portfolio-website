@@ -13,13 +13,13 @@ const ibmPlexMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'The Kweku Ayepah',
-  description: 'A place for developers to have a great time while learning about backend development, microservices, and scalable systems.',
-  keywords: 'backend engineer, software engineer, microservices, cloud architecture, TypeScript, Node.js, Python',
-  authors: [{ name: 'Kweku Ayepah' }],
+  title: 'methinks...',
+  description: 'The worlds window into my reality',
+  keywords: 'backend engineer, software engineer, software architecture, low-level programming',
+  authors: [{ name: 'George Kofi Ohene-Adjei' }],
   openGraph: {
-    title: 'Kweku Ayepah | Welcome, Developer',
-    description: 'A place for developers to have a great time while learning about backend development.',
+    title: 'George Kofi Ohene-Adjei | Welcome, Developer',
+    description: 'The worlds window into my reality',
     type: 'website',
   },
 }
