@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   keywords: 'backend engineer, software engineer, software architecture, low-level programming',
   authors: [{ name: 'George Kofi Ohene-Adjei' }],
   openGraph: {
-    title: 'George Kofi Ohene-Adjei | Welcome, Developer',
+    title: 'George Kofi Ohene-Adjei | Methinks...',
     description: 'The worlds window into my reality',
     type: 'website',
   },
